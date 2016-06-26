@@ -3,22 +3,23 @@
 
 ## Supported
 
- **Chromium-like (Windows, Mac OS, Linux):**
- * Chromium *(20+)*
- * Google Chrome *(20+)*
- * Comodo Dragon *(20+)*
- * SRWare Iron *(20+)*
- * Yandex Browser *(30+)*
- * etc.
+**Chromium-like (Windows, Mac OS, Linux):**
+* Chromium *(20+)*
+* Google Chrome *(20+)*
+* Comodo Dragon *(20+)*
+* SRWare Iron *(20+)*
+* Yandex Browser *(30+)*
+* etc.
 
- **FireFox-like (Windows, Mac OS, Linux):**
- * Mozilla Firefox *(30+)*
- * Mozilla SeaMonkey *(30+)*
- * Mozilla Thunderbird *(30+)*
- * Sunbird
- * Komodo IDE
- * Komodo Edit
- * etc.
+
+**FireFox-like (Windows, Mac OS, Linux):**
+* Mozilla Firefox *(30+)*
+* Mozilla SeaMonkey *(30+)*
+* Mozilla Thunderbird *(30+)*
+* Sunbird
+* Komodo IDE
+* Komodo Edit
+* etc.
 
 **Other apps:**
 * Maxthon *(3+)*
@@ -69,7 +70,7 @@ image
     p.template_path_out = 'out'
 **Edit manifest.json:**
 
-*everything except - ch.template_manifest **\[\'theme\'\]***
+*everything except - ch.template_manifest **['theme']***
 
     ch = gct.Chromium()
     ch.template_manifest['default_locale'] = 'en'
