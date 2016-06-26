@@ -70,7 +70,7 @@ image
     p.template_path_out = 'out'
 **Edit manifest.json:**
 
-*everything except - ch.template_manifest **['theme']***
+*everything except - ch.template_manifest ['theme']*
 
     ch = gct.Chromium()
     ch.template_manifest['default_locale'] = 'en'
