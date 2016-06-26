@@ -64,7 +64,6 @@ image
 
     ch = gct.Chromium()
     ch.browser_path = 'C:\\Google\\Chrome\\Application'
-    gct.theme_description = 'Description'
 **Another Out-folder path:**
 
     p.template_path_out = 'out'
