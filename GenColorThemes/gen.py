@@ -336,7 +336,7 @@ class FireFox:
                                                                   'http://www.example.com/firefox/personas/01/footer.jpg')
             self.template_install = self.template_install.replace('"%_locales%"', json.dumps(self._locales))
 
-            out_path = self.params.template_path_out + '/GenColorThemes_' + self.params.theme_name + '/FireFox-like/'
+            out_path = self.params.template_path_out + self.params.theme_name + '/FireFox-like/'
             if not os.path.exists(out_path):
                 os.makedirs(out_path)
 
@@ -366,16 +366,16 @@ class Maxthon:
             self.params = result_check[1]
             self.template_config['color'] = '#' + str(self.params.main_color_hex)
             _color_text_res, _tone = _get_color_text(self.params.text_color_hex, self.params.main_color)
+            print("_color_text_res", _color_text_res, _tone)
             if _tone:
                 if _tone == 'light':
                     self.template_config['isdark'] = '0'
                 elif _tone == 'dark':
                     self.template_config['isdark'] = '1'
-            print('self.template_config', self.template_config)
-            out_path = self.params.template_path_out + '/GenColorThemes_' + self.params.theme_name + '/Maxthon/'
+            out_path = self.params.template_path_out + self.params.theme_name + '/Maxthon/'
             if not os.path.exists(out_path):
                 os.makedirs(out_path)
-            a = '[Share]' + '\n'
+            a = '[Share]' + '\r\n'
             for item in self.template_config:
                 a += item + '=' + self.template_config[item] + '\n'
             _create_zip(self.params.theme_name + '.mxskin',
@@ -386,13 +386,13 @@ class Maxthon:
 def _get_color_text(_ct, _mc):
     _tone = None
     if _ct.find('Auto') > -1:
-        _color_accent_hsv = _rgb2hsv(_mc[0], _mc[1], _mc[2])
-        if _mc[1] <= 150:  # V <= 70 and S >= 40
+        print('_mc[1]', _mc)
+        if _mc[1] <= 180:  # or 150
             _color_text_hex = '#ecf0f1'
-            _tone = 'light'
+            _tone = 'dark'
         else:
             _color_text_hex = '#2c3e50'
-            _tone = 'dark'
+            _tone = 'light'
     elif _ct:
         _color_text_hex = _ct
     else:
@@ -411,7 +411,7 @@ def _hsv2rgb(h, s, v):
 
 
 def _create_zip(name_file, in_path=None, out_path=None, only_string=None):
-    print('Creating .ZIP process...')
+    print('Creating ZIP process...')
     zf = zipfile.ZipFile(out_path + name_file, mode='w')
     try:
         if not only_string:
@@ -426,7 +426,7 @@ def _create_zip(name_file, in_path=None, out_path=None, only_string=None):
             zf.writestr('Config.ini', only_string, zipfile.ZIP_DEFLATED)
     finally:
         zf.close()
-        print('Creating .ZIP success')
+        print('Creating ZIP success')
 
 
 if __name__ == '__main__':
@@ -450,6 +450,6 @@ if __name__ == '__main__':
     ch = Chromium()
 
     # uncomment to continue
-    # ch.create('#27ae60', p)
-    # Maxthon().create('#27ae60', p)
-    # FireFox().create('#27ae60', p)
+    # ch.create(color, p)
+    # Maxthon().create(color, p)
+    # FireFox().create(color, p)
