@@ -1,6 +1,17 @@
 # GenColorThemes
 *Generating simple color themes for browsers.*
 
+## Preview
+##### Google Chrome (Emerland)
+![Google Chrome][1]
+##### Mozilla FireFox (Pomegrante)
+![Mozilla FireFox][2]
+##### Maxthon (Wetasphalt)
+![Maxthon][3]
+
+[1]: Preview/google_chrome.png "Необязательный титул"
+[2]: Preview/mozilla-ff.png "Необязательный титул"
+[3]: Preview//maxthon.png "Необязательный титул"
 ## Supported
 
 **Chromium-like (Windows, Mac OS, Linux):**
@@ -29,8 +40,6 @@
  * *Opera*
  * *Amigo*
 
-## Preview
-image
 ## How to use
     p = gct.Params()
     p.theme_name = "Test theme"
