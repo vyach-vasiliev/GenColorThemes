@@ -1,12 +1,6 @@
-# GenColorThemes
+# GenColorThemes [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vyach-vasiliev/GenColorThemes/master/LICENSE) [![Chrome](https://img.shields.io/badge/Chrome-20+-40A977.svg)](https://atom.io) [![FireFox](https://img.shields.io/badge/FireFox-30+-FF931F.svg)](https://atom.io) [![FireFox](https://img.shields.io/badge/Maxthon-3+-6B96C6.svg)](https://atom.io) [![FireFox](https://img.shields.io/badge/Opera-soon-F84646.svg)](https://atom.io)
 
 Generating simple color themes for browsers.
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vyach-vasiliev/GenColorThemes/master/LICENSE)
-[![Chrome](https://img.shields.io/badge/Chrome-20+-40A977.svg)](https://atom.io)
-[![FireFox](https://img.shields.io/badge/FireFox-30+-FF931F.svg)](https://atom.io)
-[![FireFox](https://img.shields.io/badge/Maxthon-3+-6B96C6.svg)](https://atom.io)
-[![FireFox](https://img.shields.io/badge/Opera-soon-F84646.svg)](https://atom.io)
-
 ## Preview
 ##### Google Chrome (Emerland)
 ![Google Chrome][1]
