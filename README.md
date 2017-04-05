@@ -123,7 +123,7 @@ or see the [LICENSE file](..blob//master/LICENSE)
 
 [Why you need a license?](..blob//master/LICENSE_INFO.md)
 
-### Bear?
+### Beer?
 [Support me](https://www.paypal.me/wencelsaus/3) or  just write what you would like to add to the program.
 
 I will always be happy with your feedback. Do not be shy, write to me!
