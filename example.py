@@ -6,6 +6,15 @@ if __name__ == "__main__":
     p.theme_name = "Test theme"
     p.theme_description = "Test description"
     ch = gct.Chromium()
-    ch.create(color, p)
-    gct.FireFox().create(color, p)
-    gct.Maxthon().create(color, p)
+
+    ch.create_theme(color, p)
+    # or
+    # gct.Chromium().create_theme(color, p)
+
+    ''' Or short variant '''
+    # gct.FireFox().create_theme(color, p)
+    # gct.Maxthon().create_theme(color, p)
+    # gct.FireFox().create_theme(color, p)
+    # gct.OperaBlink().create_theme(color, p)
+    # gct.OperaPresto().create_theme(color, p)
+    # gct.Slim().create_theme(color, p)
