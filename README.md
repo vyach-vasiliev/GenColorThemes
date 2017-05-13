@@ -2,6 +2,8 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vyach-vasiliev/GenColorThemes/master/LICENSE) [![Chrome](https://img.shields.io/badge/Chrome-20+-40A977.svg)](https://www.google.com/chrome/) [![FireFox](https://img.shields.io/badge/FireFox-30+-FF931F.svg)](https://mozilla.org/firefox) [![Maxthon](https://img.shields.io/badge/Maxthon-3+-6B96C6.svg)](http://maxthon.com/) [![Opera Presto](https://img.shields.io/badge/Opera-Presto-F84646.svg)](http://opera.com/) [![Opera Blink](https://img.shields.io/badge/Opera-Blink-F84688.svg)](http://opera.com/) [![Support me](https://img.shields.io/badge/Support_me-PayPal-33cc33.svg)](https://www.paypal.me/wencelsaus/3)
 
 Generating simple color themes for browsers. Works on **Python 2.7+** and **3.4+**
+
+---
 ## Preview
 ##### Google Chrome (Emerland)
 ![Google Chrome][1]
@@ -14,45 +16,46 @@ Generating simple color themes for browsers. Works on **Python 2.7+** and **3.4+
 [2]: Preview/mozilla-ff.png "Необязательный титул"
 [3]: Preview//maxthon.png "Необязательный титул"
 
-### Supported
+---
+### Supported apps
 
-* **Chromium-like** (Windows, Mac OS, Linux):
-    * [360 Browser](http://www.360safe.com/) *(5+)*
-    * [Baidu Spark Browser](baidu.com) *(30+)*
-    * [Blisk Browser](https://blisk.io/) *(0.3+)*
-    * [Cent Browser](https://www.centbrowser.com/)
-    * [Chromium Browser](https://www.chromium.org/getting-involved/download-chromium) *(20+)*
-    * [Citrio Browser](http://citrio.com/)
-    * [Comodo Dragon Browser](https://browser.comodo.com/) *(30+)*
-    * [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php) *(20+)*
-    * [CoolNovo Browser](https://ru.wikipedia.org/wiki/CoolNovo) (project is closed)
-    * [Coowon Browser](http://coowon.com/) (project is closed)
-    * [Cốc Cốc Browser](https://coccoc.com/) *(40+)*
-    * [Epic Privacy Browser](https://www.epicbrowser.com/) *(2013+)*
-    * [Google Chrome Browser](https://www.google.com/chrome/) *(20+)*
-    * [Google Chrome Canary Browser](https://www.google.com/chrome/browser/canary.html) *(20+)*
-    * [Iridium Browser](https://iridiumbrowser.de/) *(30+)*
-    * [Opera Blink](http://opera.com/) (Only background image)
-    * [Opera Presto](http://opera.com/) *(+18)*
-    * [SRWare Iron Browser](https://www.srware.net/en/software_srware_iron.php) *(20+)*
-    * [Slimjet Browser](https://www.slimjet.com/) *(10+)*
-    * [Torch Web Browser](https://torchbrowser.com/)
-    * Not tested
-        * [UC Browser](https://www.ucweb.com/)
-
-
-* **FireFox-like** (Windows, Mac OS, Linux):
-    * [Comodo IceDragon Browser](https://browser.comodo.com/) *(30+)*
-    * [Mozilla Firefox Browser](https://mozilla.org/firefox) *(30+)*
-    * [Mozilla SeaMonkey Browser](http://seamonkey-project.org/) *(2+)*
-    * [Mozilla Thunderbird Email-client](https://mozilla.org/thunderbird) *(30+)*
-    * [Pale Moon Browser](https://www.palemoon.org/) *(20+)*
-    * [Tor Browser](https://www.torproject.org/projects/torbrowser.html) *(3+)*
-    * etc.
+- [x] **Chromium-like** (Windows, Mac OS, Linux):
+    - [x] [360 Browser](http://www.360safe.com/) *(5+)*
+    - [x] [Baidu Spark Browser](baidu.com) *(30+)*
+    - [x] [Blisk Browser](https://blisk.io/) *(0.3+)*
+    - [x] [Cent Browser](https://www.centbrowser.com/)
+    - [x] [Chromium Browser](https://www.chromium.org/getting-involved/download-chromium) *(20+)*
+    - [x] [Citrio Browser](http://citrio.com/)
+    - [x] [Comodo Dragon Browser](https://browser.comodo.com/) *(30+)*
+    - [x] [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php) *(20+)*
+    - [x] [CoolNovo Browser](https://ru.wikipedia.org/wiki/CoolNovo) (project is closed)
+    - [x] [Coowon Browser](http://coowon.com/) (project is closed)
+    - [x] [Cốc Cốc Browser](https://coccoc.com/) *(40+)*
+    - [x] [Epic Privacy Browser](https://www.epicbrowser.com/) *(2013+)*
+    - [x] [Google Chrome Browser](https://www.google.com/chrome/) *(20+)*
+    - [x] [Google Chrome Canary Browser](https://www.google.com/chrome/browser/canary.html) *(20+)*
+    - [x] [Iridium Browser](https://iridiumbrowser.de/) *(30+)*
+    - [x] [Opera Blink](http://opera.com/) (Only background image)
+    - [x] [Opera Presto](http://opera.com/) *(+18)*
+    - [x] [SRWare Iron Browser](https://www.srware.net/en/software_srware_iron.php) *(20+)*
+    - [x] [Slimjet Browser](https://www.slimjet.com/) *(10+)*
+    - [x] [Torch Web Browser](https://torchbrowser.com/)
+    - [ ] Not tested
+        - [UC Browser](https://www.ucweb.com/)
 
 
-* **Other apps** (Windows, Mac OS, Linux):
-    * [Maxthon](http://maxthon.com/) *(3+)*
+- [x] **FireFox-like** (Windows, Mac OS, Linux):
+    - [x] [Comodo IceDragon Browser](https://browser.comodo.com/) *(30+)*
+    - [x] [Mozilla Firefox Browser](https://mozilla.org/firefox) *(30+)*
+    - [x] [Mozilla SeaMonkey Browser](http://seamonkey-project.org/) *(2+)*
+    - [x] [Mozilla Thunderbird Email-client](https://mozilla.org/thunderbird) *(30+)*
+    - [x] [Pale Moon Browser](https://www.palemoon.org/) *(20+)*
+    - [x] [Tor Browser](https://www.torproject.org/projects/torbrowser.html) *(3+)*
+    - [x] etc.
+
+
+- [x] **Other apps** (Windows, Mac OS, Linux):
+    - [x] [Maxthon](http://maxthon.com/) *(3+)*
 
 
 * ***Not-supported apps:***
@@ -70,53 +73,78 @@ Generating simple color themes for browsers. Works on **Python 2.7+** and **3.4+
          * [Sleipnir](http://www.fenrir-inc.com/jp/sleipnir/)
 
 
-
+---
 ### How to use
-    p = gct.Params()
-    p.theme_name = "Test theme"
-    p.theme_description = "Test description"
-    ch = gct.Chromium().create('#27ae60', p)
+```python
+import GenColorThemes.gen as gct
+p = gct.Params()
+p.theme_name = "Test theme"
+p.theme_description = "Test description"
+ch = gct.Chromium().create('#27ae60', p)
+```
+
 ### Output structure
 
     out/
     ├──  Chromium-like/
-    │    ├──  name-theme/
-    │    │    ├──  resources/
-    │    │    │    ├──  _locales/
-    │    │    │    │    └──  ... (<lang_code>/messages.json)
-    │    │    │    ├──  images/
-    │    │    │    │    └──  ... (*.png)
-    │    │    │    └──  manifest.json
-    │    │    ├── name-theme.crx
-    │    │    ├── name-theme.pem
-    │    │    └── name-theme.zip (option)
+    │    ├──  resources/
+    │    │    ├──  _locales/
+    │    │    │    └──  ... (<lang_code>/messages.json)
+    │    │    ├──  images/
+    │    │    │    └──  ... (*.png)
+    │    │    └──  manifest.json
+    │    ├──  name-theme.crx
+    │    ├──  name-theme.pem
+    │    └──  name-theme.zip (option)
+    │
     ├──  FireFox-like
     │    └──  name-theme/
     │         └── install.html
-    └──  Maxthon
-         └──  name-theme.mxskin
+    ├──  Maxthon
+    │    └──  name-theme.mxskin
+    ├──  Opera-Blink
+    │    ├──  name-theme/
+    │    │    ├──  opera.ini
+    │    │    └──  persona.ini
+    │    └──  name-theme.zip
+    │
+    ├──  Opera-Presto
+    │    ├──  name-theme/
+    │    │    ├──  opera.ini
+    │    │    └──  persona.ini
+    │    └──  name-theme.zip
+    └──  Slim
+         ├──  name-theme/
+         │    ├──  skin.ini
+         │    └──  ... (*.bmp)
+         └──  name-theme.zip
 
 ### More
 **Create an additional .zip archive:**
-
-    ch = gct.Chromium()
-    ch.zip = True
+```python
+ch = gct.Chromium()
+ch.zip = True
+```
 **Another Chrome-browser path:**
-
-    ch = gct.Chromium()
-    ch.browser_path = 'C:\\Google\\Chrome\\Application'
+```python
+ch = gct.Chromium()
+ch.browser_path = 'C:\\Google\\Chrome\\Application'
+```
 **Another Out-folder path:**
-
-    p.template_path_out = 'out'
+```python
+p.template_path_out = 'out'
+```
 **Edit manifest.json:**
 
 *everything except - ch.template_manifest ['theme']*
 
-    ch = gct.Chromium()
-    ch.template_manifest['default_locale'] = 'en'
-    ch.template_manifest['version'] = '2'
-    ...
-
+```python
+ch = gct.Chromium()
+ch.template_manifest['default_locale'] = 'en'
+ch.template_manifest['version'] = '2'
+...
+```
+---
 ### License
 **[MIT License](https://opensource.org/licenses/MIT "Text license")**
 or see the [LICENSE file](..blob//master/LICENSE)
