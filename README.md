@@ -153,9 +153,9 @@ ch.template_manifest['version'] = '2'
 ---
 ### License
 **[MIT License](https://opensource.org/licenses/MIT "Text license")**
-or see the [LICENSE file](blob//master/LICENSE)
+or see the [LICENSE file](/LICENSE)
 
-[Why you need a license?](blob//master/LICENSE_INFO.md)
+[Why you need a license?](/LICENSE_INFO.md)
 
 ### Beer?
 [Support me](https://www.paypal.me/wencelsaus/3) or  just write what you would like to add to the program.
