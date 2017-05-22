@@ -1,5 +1,11 @@
 # GenColorThemes
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vyach-vasiliev/GenColorThemes/master/LICENSE) [![Chrome](https://img.shields.io/badge/Chrome-20+-40A977.svg)](https://www.google.com/chrome/) [![FireFox](https://img.shields.io/badge/FireFox-30+-FF931F.svg)](https://mozilla.org/firefox) [![Maxthon](https://img.shields.io/badge/Maxthon-3+-6B96C6.svg)](http://maxthon.com/) [![Opera Presto](https://img.shields.io/badge/Opera-Presto-F84646.svg)](http://opera.com/) [![Opera Blink](https://img.shields.io/badge/Opera-Blink-F84688.svg)](http://opera.com/) [![Support me](https://img.shields.io/badge/Support_me-PayPal-33cc33.svg)](https://www.paypal.me/wencelsaus/3)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vyach-vasiliev/GenColorThemes/master/LICENSE)
+[![Chrome](https://img.shields.io/badge/Chrome-20+-40A977.svg)](https://www.google.com/chrome/)
+[![FireFox](https://img.shields.io/badge/FireFox-30+-FF931F.svg)](https://mozilla.org/firefox)
+[![Maxthon](https://img.shields.io/badge/Maxthon-3+-6B96C6.svg)](http://maxthon.com/)
+[![Opera Presto](https://img.shields.io/badge/Opera-Presto-F84646.svg)](http://opera.com/)
+[![Opera Blink](https://img.shields.io/badge/Opera-Blink-F84688.svg)](http://opera.com/)
+[![Support me](https://img.shields.io/badge/Support_me-PayPal-33cc33.svg)](https://www.paypal.me/wencelsaus/3)
 
 Generating simple color themes for browsers. Works on **Python 2.7+** and **3.4+**
 
@@ -147,9 +153,9 @@ ch.template_manifest['version'] = '2'
 ---
 ### License
 **[MIT License](https://opensource.org/licenses/MIT "Text license")**
-or see the [LICENSE file](..blob//master/LICENSE)
+or see the [LICENSE file](blob//master/LICENSE)
 
-[Why you need a license?](..blob//master/LICENSE_INFO.md)
+[Why you need a license?](blob//master/LICENSE_INFO.md)
 
 ### Beer?
 [Support me](https://www.paypal.me/wencelsaus/3) or  just write what you would like to add to the program.
